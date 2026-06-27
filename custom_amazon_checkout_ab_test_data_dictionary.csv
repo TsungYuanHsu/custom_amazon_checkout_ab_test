@@ -1,0 +1,12 @@
+column,meaning,how_to_use
+user_id,Unique visitor ID,Count users
+visit_date,Date of user visit,Daily trend analysis
+experiment_group,"A/B test group: control = old checkout, treatment = simplified checkout",Main comparison variable
+device,Device used by visitor,Segment analysis
+traffic_source,Marketing source that brought the visitor,Segment analysis
+customer_type,Whether the visitor is new or returning,Segment analysis
+country,Visitor country,Segment analysis
+added_to_cart,"1 if visitor added item to cart, else 0",Funnel metric
+started_checkout,"1 if visitor started checkout, else 0",Funnel metric
+purchased,"1 if visitor completed purchase, else 0",Main conversion metric
+order_value,Purchase amount. Zero if no purchase,Revenue metric
